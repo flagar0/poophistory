@@ -100,8 +100,9 @@
   "workspaceSettings": {
     "modid": "poop_history",
     "modName": "Poop History",
-    "version": "1.0.0",
-    "author": "Flavio Midea, MCreator",
+    "version": "0.0.1",
+    "description": "A poop history",
+    "author": "bomnocraft",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
@@ -111,6 +112,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.17.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "bomnocraft.poophistory",
     "lockBaseModFiles": false
   },
