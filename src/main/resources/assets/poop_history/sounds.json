@@ -1,0 +1,21 @@
+{
+  "pum": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "poop_history:pum",
+        "stream": false
+      }
+    ]
+  },
+  "ambient.pum": {
+    "category": "ambient",
+    "subtitle": "subtitles.ambient.pum",
+    "sounds": [
+      {
+        "name": "poop_history:pum",
+        "stream": false
+      }
+    ]
+  }
+}

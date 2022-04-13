@@ -1,0 +1,118 @@
+{
+  "mod_elements": [
+    {
+      "name": "Poop",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poop"
+    },
+    {
+      "name": "Cagar2",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cagar_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Coco",
+      "type": "gamerule",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coco",
+      "metadata": {
+        "type": "logic"
+      }
+    },
+    {
+      "name": "ChanceCagar",
+      "type": "gamerule",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chanceCagar",
+      "metadata": {
+        "type": "number"
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "pum",
+      "files": [
+        "pum"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "ambient.pum",
+      "files": [
+        "pum"
+      ],
+      "category": "ambient",
+      "subtitle": "puzin"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.ambient.pum": "puzin",
+      "gamerule.chanceCagar.description": "chancedecagar",
+      "gamerule.coco.description": "fazercagar",
+      "item.poop_history.poop": "Poop",
+      "gamerule.chanceCagar": "chanceCagar",
+      "subtitles.pum": "",
+      "gamerule.coco": "fazerCoco"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "poop_history",
+    "modName": "Poop History",
+    "version": "1.0.0",
+    "author": "Flavio Midea, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "modElementsPackage": "bomnocraft.poophistory",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}
