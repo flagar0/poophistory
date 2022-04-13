@@ -1,0 +1,42 @@
+{
+  "group": "block",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "poop_history:poop"
+    },
+    "1": {
+      "item": "poop_history:poop"
+    },
+    "2": {
+      "item": "poop_history:poop"
+    },
+    "3": {
+      "item": "poop_history:poop"
+    },
+    "4": {
+      "item": "poop_history:poop"
+    },
+    "5": {
+      "item": "poop_history:poop"
+    },
+    "6": {
+      "item": "poop_history:poop"
+    },
+    "7": {
+      "item": "poop_history:poop"
+    },
+    "8": {
+      "item": "poop_history:poop"
+    }
+  },
+  "result": {
+    "item": "poop_history:poop_block",
+    "count": 1
+  }
+}

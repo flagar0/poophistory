@@ -61,6 +61,30 @@
       "metadata": {
         "type": "number"
       }
+    },
+    {
+      "name": "PoopBlock",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poop_block"
+    },
+    {
+      "name": "PoopBlockrcp",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poop_blockrcp"
+    },
+    {
+      "name": "PoopToBlockrcp",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poop_to_blockrcp"
     }
   ],
   "variable_elements": [],
@@ -90,12 +114,22 @@
       "item.poop_history.poop": "Poop",
       "gamerule.chanceCagar": "chanceCagar",
       "subtitles.pum": "",
+      "block.poop_history.poop_block": "Poop Block",
       "gamerule.coco": "fazerCoco"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Gamerules",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "poop_history",

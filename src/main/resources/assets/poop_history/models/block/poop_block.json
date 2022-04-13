@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "poop_history:blocks/poopblocktxt",
+    "particle": "poop_history:blocks/poopblocktxt"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "group": "pooptoblock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "poop_history:poop_block"
+    }
+  },
+  "result": {
+    "item": "poop_history:poop",
+    "count": 9
+  }
+}
